@@ -20,5 +20,7 @@ public class Check {
         driver.findElement(By.id("color_14")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("//span[normalize-space()='Add to cart']")).click();
+        Thread.sleep(2000);
+        driver.close();
     }
 }
